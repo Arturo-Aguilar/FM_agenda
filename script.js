@@ -44,13 +44,13 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       {
         groupId: 999,
-        title: "Repeating Event",
+        title: "Evento Repetido 2",
         start: "2024-01-01T16:00:00",
       },
       {
         groupId: 999,
         title: "Evento repetido 1",
-        start: "2024-01-01T16:00:00",
+        start: "2024-01-03T16:00:00",
       },
       {
         title: "Conference",

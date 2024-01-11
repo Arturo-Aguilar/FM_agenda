@@ -36,10 +36,8 @@ body{
     position: relative;
     
 }
-.imagen-photo{
-    width: 50px;
-    height: auto;
-    background-color: black;
+.imagen-bacground{
+    margin-top: 150px;
 }
 .imagen-formulario::before{
    content: '';

@@ -17,10 +17,10 @@
 
     <div class="contenedor-formulario contenedor">
         <div class="imagen-formulario">
-            
+            <img class="imagen-bacground" src="assets/background.png" alt="" style="width: 700px;">
         </div>
 
-        <form class="formulario">
+        <form class="formulario" action="main.php" method="post" name="confir">
             <div class="texto-formulario">
                 <h2>Bienvenido de nuevo</h2>
                 <p>Inicia sesión con tu cuenta</p>

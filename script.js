@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function () {
   var calendarEl = document.getElementById("calendar");
 
@@ -14,20 +15,28 @@ document.addEventListener("DOMContentLoaded", function () {
     selectable: true,
     selectMirror: true,
     select: function (arg) {
-      var title = prompt("Titulo del evento:");
-      if (title) {
-        calendar.addEvent({
-          title: title,
-          start: arg.start,
-          end: arg.end,
-          allDay: arg.allDay,
-        });
+      var claveUser = "1299790";
+      var comparation = prompt("Ingrese la contraseña");
+      if(claveUser == comparation){
+        var title = prompt("Titulo del evento:");
+        if (title) {
+          calendar.addEvent({
+            title: title,
+            start: arg.start,
+            end: arg.end,
+            allDay: arg.allDay,
+          });
+        }
       }
       calendar.unselect();
     },
     eventClick: function (arg) {
       if (confirm("¿Está seguro de borrar el evento?")) {
-        arg.event.remove();
+        var claveUser = "1299790";
+        var comparation = prompt("Ingrese la contraseña");
+        if(claveUser == comparation){
+          arg.event.remove();
+        }
       }
     },
     editable: true,
@@ -37,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
         title: "All Day Event",
         start: "2024-01-01",
       },
-      {
+      /*{
         title: "Long Event",
         start: "2023-01-07",
         end: "2023-01-10",
@@ -86,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
         title: "Click for Google",
         url: "http://google.com/",
         start: "2024-01-28",
-      },
+      },*/
     ],
   });
 

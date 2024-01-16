@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="assets/icono_FM.jpg" type="image/x-icon">
 </head>
 
 <body>

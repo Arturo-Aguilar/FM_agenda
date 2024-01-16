@@ -7,6 +7,7 @@
   <script src='fullcalendar/dist/index.global.min.js'></script>
   <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assets/icono_FM.jpg" type="image/x-icon">
 </head>
 <body>
    <!--CONTENEDOR DEL CALENDARIO-->

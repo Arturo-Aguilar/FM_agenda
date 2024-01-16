@@ -38,6 +38,8 @@ body{
 }
 .imagen-bacground{
     margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .imagen-formulario::before{
    content: '';
